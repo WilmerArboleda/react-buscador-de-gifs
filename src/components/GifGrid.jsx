@@ -26,8 +26,11 @@ export const GifGrid = ({ category }) => {
       {
         images.map(( image ) => (
           <GifItem key={ image.id } {...image}/> //asi se pasan todas la propiedades ... en el otro archivo solo debe llamar las que necesite
-        ))
+          
+          ))
+        
       }
+       
       
     </div>
     </>

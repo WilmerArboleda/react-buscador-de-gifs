@@ -72,3 +72,8 @@
   .card img {
     width: 100%;
   }
+
+  button{
+    border: none;
+    font-size: 20px;
+  }
