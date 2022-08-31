@@ -24,7 +24,12 @@
 
   h1{
     text-align: center;
-    font-size: 3rem;
+    max-width: 100%;
+    width: auto;
+  }
+
+  .titulo{
+    width: 100%;
   }
   
   h2 {

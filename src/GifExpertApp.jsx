@@ -19,7 +19,7 @@ export const GifExpertApp = () => {
   return (
     <>
     {/**titulo */}
-    <h1>GifExpertApp</h1>
+    <div className="titulo"><h1>GifExpertApp</h1></div>
 
     {/**input */}
     <AddCategory onNewCategory={ onAddCategory }
